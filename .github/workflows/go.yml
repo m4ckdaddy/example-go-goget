@@ -25,7 +25,6 @@ jobs:
         go mod init github.com/veracode/example-go-goget
         go mod tidy
         go build .
-     
     #- name: Package Upload
      # run | 
     - name: Check Auto
